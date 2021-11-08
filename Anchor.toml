@@ -1,0 +1,15 @@
+# [programs.localnet]
+[programs.devnet]
+solana_first = "4uL5mteMGjtuAdNvUP8mQrh5Z4pXE72krJjF9S9M2n2F"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+# cluster = "localnet"
+cluster = "devnet"
+wallet = "/Users/xaviercanchal/.config/solana/id.json"
+
+[scripts]
+test = "node tests/solana-first.js"
+
